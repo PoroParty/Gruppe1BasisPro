@@ -441,56 +441,80 @@ namespace Jeopardy //JEPPE
             Console.WriteLine();
             Console.ReadKey();
         }
+
+        // MasterMind af Kasper. 
         static void Mastermind()
         {
+            // farver som skal gættes. 
             string[] masterCode = new string[] { "black", "blue", "yellow", "red" };
+
+            // placeholder til valgte farver.
             string[] codeGuess = new string[] { "white", "white", "white", "white" };
 
             Console.WriteLine("Mastermind By Kasper ");
+            Console.WriteLine("Guess the 4 colors and where they are"); 
 
-            Console.WriteLine("guess the first color");
-            codeGuess[0] = Console.ReadLine();
-            Console.WriteLine("guess the second color");
-            codeGuess[1] = Console.ReadLine();
-            Console.WriteLine("guess the third color");
-            codeGuess[2] = Console.ReadLine();
-            Console.WriteLine("guess the forth color");
-            codeGuess[3] = Console.ReadLine();
+            // Bruger et loop til at gentage koden 10 gange, hvis man ikke får de rigtige farven inden, så slutter loopet og man har tabt. 
+            for (int guesses = 10; guesses > 0; guesses-- )
+            {
+                int rightColors = 0;
+                int rightPlaces = 0;
 
+                // sætter de gættet farver ind på placeholder. 
+                Console.WriteLine("guess the first color");
+                codeGuess[0] = Console.ReadLine();
+                Console.WriteLine("guess the second color");
+                codeGuess[1] = Console.ReadLine();
+                Console.WriteLine("guess the third color");
+                codeGuess[2] = Console.ReadLine();
+                Console.WriteLine("guess the forth color");
+                codeGuess[3] = Console.ReadLine();
 
-            // kigger efter om arrays har de samme farver.  
-            if (masterCode[0] == codeGuess[0])
-            {
-                Console.WriteLine("one right color in right place");
-            }
-            else
-            {
-                Console.WriteLine("one color is wrong");
-            }
-            if (masterCode[1] == codeGuess[1])
-            {
-                Console.WriteLine("one right color in right place");
-            }
-            else
-            {
-                Console.WriteLine("one color is wrong");
-            }
-            if (masterCode[2] == codeGuess[2])
-            {
-                Console.WriteLine("one right color in right place");
-            }
-            else
-            {
-                Console.WriteLine("one color is wrong");
-            }
-            if (masterCode[3] == codeGuess[3])
-            {
-                Console.WriteLine("one right color in right place");
-            }
-            else
-            {
-                Console.WriteLine("one color is wrong");
-            }
+                // hvis nogle af farvene sidder rigtig stiger værdien "rightPlaces". 
+                if (masterCode[0] == codeGuess[0])
+                {
+                    rightPlaces++;
+                }
+                if (masterCode[1] == codeGuess[1])
+                {
+                    rightPlaces++;
+                }
+                if (masterCode[2] == codeGuess[2])
+                {
+                    rightPlaces++;
+                }
+                if (masterCode[3] == codeGuess[3])
+                {
+                    rightPlaces++;
+                }
+
+                // dette loop tjekker om de rigtige farver er med. 
+                foreach (string i in masterCode)
+                {
+                    if (i == codeGuess[0])
+                    {
+                        rightColors++;
+                    }
+                    if (i == codeGuess[1])
+                    {
+                        rightColors++;
+                    }
+                    if (i == codeGuess[2])
+                    {
+                        rightColors++;
+                    }
+                    if (i == codeGuess[3])
+                    {
+                        rightColors++;
+                    }
+                }
+                
+
+                Console.WriteLine("you have "+ rightPlaces+" colors in right place");
+                Console.WriteLine("you have "+ rightColors+" colors right ");
+                Console.WriteLine("you have "+ guesses +" guesses left");
+            } 
+            
 
 
 
@@ -1139,7 +1163,7 @@ namespace Jeopardy //JEPPE
         static void Main(string[] args)
         {
             //JeopardyPoints();
-            //Mastermind();
+            Mastermind();
             //Skibe();
             //InitializeChess();
         }

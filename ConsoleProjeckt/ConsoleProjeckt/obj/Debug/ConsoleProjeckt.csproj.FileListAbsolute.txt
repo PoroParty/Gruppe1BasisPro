@@ -1,0 +1,8 @@
+C:\Users\kaspe\OneDrive\Dokumenter\GitHub\WorkSpaces\TestingGitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\bin\Debug\ConsoleProjeckt.exe.config
+C:\Users\kaspe\OneDrive\Dokumenter\GitHub\WorkSpaces\TestingGitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\bin\Debug\ConsoleProjeckt.exe
+C:\Users\kaspe\OneDrive\Dokumenter\GitHub\WorkSpaces\TestingGitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\bin\Debug\ConsoleProjeckt.pdb
+C:\Users\kaspe\OneDrive\Dokumenter\GitHub\WorkSpaces\TestingGitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\obj\Debug\ConsoleProjeckt.csproj.AssemblyReference.cache
+C:\Users\kaspe\OneDrive\Dokumenter\GitHub\WorkSpaces\TestingGitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\obj\Debug\ConsoleProjeckt.csproj.SuggestedBindingRedirects.cache
+C:\Users\kaspe\OneDrive\Dokumenter\GitHub\WorkSpaces\TestingGitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\obj\Debug\ConsoleProjeckt.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\OneDrive\Dokumenter\GitHub\WorkSpaces\TestingGitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\obj\Debug\ConsoleProjeckt.exe
+C:\Users\kaspe\OneDrive\Dokumenter\GitHub\WorkSpaces\TestingGitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\obj\Debug\ConsoleProjeckt.pdb
