@@ -1,0 +1,7 @@
+C:\Users\Jeppe\OneDrive\Dokumenter\GitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\bin\Debug\ConsoleProjeckt.exe.config
+C:\Users\Jeppe\OneDrive\Dokumenter\GitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\bin\Debug\ConsoleProjeckt.exe
+C:\Users\Jeppe\OneDrive\Dokumenter\GitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\bin\Debug\ConsoleProjeckt.pdb
+C:\Users\Jeppe\OneDrive\Dokumenter\GitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\obj\Debug\ConsoleProjeckt.csproj.AssemblyReference.cache
+C:\Users\Jeppe\OneDrive\Dokumenter\GitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\obj\Debug\ConsoleProjeckt.csproj.CoreCompileInputs.cache
+C:\Users\Jeppe\OneDrive\Dokumenter\GitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\obj\Debug\ConsoleProjeckt.exe
+C:\Users\Jeppe\OneDrive\Dokumenter\GitHub\Gruppe1BasisPro\ConsoleProjeckt\ConsoleProjeckt\obj\Debug\ConsoleProjeckt.pdb

@@ -13,6 +13,7 @@ namespace Jeopardy //JEPPE
         //static string[] nameArray = new string[5] {"a", "b", "c", "d", "e" };
         //static int inputIndex;
 
+        static int gameSelect;
         static int[,] chessArray = new int[8, 8];
         static int[,] tempArraySargon = new int[8, 8];
         static int checkPiece;
@@ -46,7 +47,25 @@ namespace Jeopardy //JEPPE
         king = 12
         */
 
-        static void EnterLoopSargon()
+        static void GameSelector()
+        {
+            Console.WriteLine("Please select one of 4 games, by typing 1,2,3 or 4.");
+            gameSelect = Int32.Parse(Console.ReadLine());
+
+
+            if (gameSelect == 1)
+            {
+                Console.WriteLine("you chose " + gameSelect + " which is Chess!");
+                InitializeChess();
+            }
+            else if (gameSelect == 2)
+            {
+                Console.WriteLine("you chose " + gameSelect + " which is Jeopardy!");
+                JeopardyPoints();
+            }
+        }
+
+            static void EnterLoopSargon()
         {
             for (int x = 0; x < chessArray.GetLength(0); x++)
             {
@@ -1126,7 +1145,8 @@ namespace Jeopardy //JEPPE
                     switch (quit)
                     {
                         case "quit":
-                            Environment.Exit(0);
+                            Console.Clear();
+                            GameSelector();
                             break;
                     }
 
@@ -1138,7 +1158,8 @@ namespace Jeopardy //JEPPE
 
         static void Main(string[] args)
         {
-            //JeopardyPoints();
+            GameSelector();
+            JeopardyPoints();
             //Mastermind();
             //Skibe();
             //InitializeChess();
