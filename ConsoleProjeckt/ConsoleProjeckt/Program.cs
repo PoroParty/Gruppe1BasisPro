@@ -445,8 +445,10 @@ namespace Jeopardy //JEPPE
         // MasterMind af Kasper. 
         static void Mastermind()
         {
-            // farver som skal gættes. 
-            string[] masterCode = new string[] { "black", "blue", "yellow", "red" };
+            
+
+                    // farver som skal gættes. 
+                    string[] masterCode = new string[] { "black", "blue", "yellow", "red" };
 
             // placeholder til valgte farver.
             string[] codeGuess = new string[] { "white", "white", "white", "white" };
@@ -508,14 +510,16 @@ namespace Jeopardy //JEPPE
                         rightColors++;
                     }
                 }
+
                 
 
                 Console.WriteLine("you have "+ rightPlaces+" colors in right place");
                 Console.WriteLine("you have "+ rightColors+" colors right ");
                 Console.WriteLine("you have "+ guesses +" guesses left");
+
             } 
             
-
+            // her slutter MasterMind af Kasper. 
 
 
         }
